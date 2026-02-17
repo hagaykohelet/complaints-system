@@ -1,0 +1,43 @@
+.submit-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-send-complaint {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(247, 247, 248);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 50px;
+    width: 60%;
+    height: 30rem;
+}
+
+.complaint-area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 10%;
+}
+
+#complaint-category{
+    padding-left: 10rem;   
+}
+
+.complaint-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    margin-right: 10%;
+}
+
+
+
+

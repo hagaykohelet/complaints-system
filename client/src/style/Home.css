@@ -1,0 +1,69 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+
+}
+
+.complaint-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(247, 247, 248);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 50px;
+    width: 40%;
+    height: 19rem
+}
+
+.send-complaint {
+    position: relative;
+    top: 20px;
+    background-color: #419955;
+    border-radius: 18px;
+    width: 50%;
+    height: 15%;
+    border: 1px solid #419955;
+    transition: transform 0.5s;
+}
+
+.send-complaint:hover,
+.enter-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.admin-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(247, 247, 248);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 50px;
+    width: 40%;
+    height: 10rem
+}
+
+
+
+.enter-btn {
+    background-color: rgba(42, 104, 190);
+    border-radius: 18px;
+    width: 50%;
+    height: 20%;
+    border: 0px solid #419955;
+    transition: transform 0.5s;
+}
+
+input[type=password] {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
