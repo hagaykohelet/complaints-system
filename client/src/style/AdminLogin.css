@@ -1,4 +1,4 @@
-.submit-page {
+.login-page {
     width: 100%;
     height: 100%;
     display: flex;
@@ -6,7 +6,7 @@
     align-items: center;
 }
 
-.page-send-complaint {
+.login-box {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -15,62 +15,51 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin-top: 50px;
     width: 60%;
-    height: 30rem;
+    height: 15rem;
 }
 
-.complaint-area {
-    width: 100%;
+.content-login {
+    width: 60%;
+    height: 40%;
     display: flex;
     flex-direction: column;
-    align-items: end;
-    margin-right: 10%;
+    align-items: center;
+    justify-content: end;
 }
 
-#complaint-category {
-    padding-left: 40%;
+.input[type=password] {
+    width: 80%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
 
-.complaint-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: end;
-    margin-right: 10%;
-}
-
-
-#complaint-content {
-    width: 90%;
-    height: 200px;
-}
-
-.send-btn {
-    background-color: #419955;
+.connnect {
+    margin-top: 3%;
+    height: 100%;
+    background-color: rgba(42, 104, 190);
     border-radius: 18px;
     width: 50%;
-    height: 10%;
-    border: 1px solid #419955;
+    height: 50%;
+    border: 0px solid #419955;
     transition: transform 0.5s;
-    color: white;
-    font-size: 100%;
 }
 
-.send-btn:hover {
+.connnect:hover {
     transform: translateY(-5px);
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-.message {
-    background-color: rgba(227, 238, 225);
+.error-message{
+    background-color:rgba(245, 222, 223);
     width: 80%;
-    height: 10%;
+    height: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-
-.message p {
-    color: #419955;
+.error-message p {
+    color: rgba(188, 79, 84);
 }
