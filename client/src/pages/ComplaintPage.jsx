@@ -19,11 +19,11 @@ function ComplaintPage() {
                 }
             }
         )
-        if (data.ok) {
+        
             const res = await data.json()
             setAllComplaint(res)
             console.log(localStorage.getItem("token"));
-        }
+        
     }
     useEffect(() => {
         if(!localStorage.getItem("token")){

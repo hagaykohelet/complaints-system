@@ -6,7 +6,7 @@ const secretpassword = process.env.PASSWORD
 
 adminRoute.post('/login', (req, res) => {
     const { password } = req.body
-    if (password !== secretpassword) {
+    if (password != secretpassword) {
         return res.status(401).json({ msg: "unauthorized" })
     }
     const token = createToken()
